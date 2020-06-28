@@ -1,0 +1,65 @@
+
+body{
+    background: url(images/light.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+/* main content of the webpage */
+
+.container{
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 7%;
+
+    
+}
+
+/* for horizontal line */
+hr{
+    width: 85%;
+}
+
+/* Facebook button */
+.Facebook{
+    padding:0.5rem 2rem;
+    color: #fff;
+    background-color:#3B5998;
+    border: none;
+    border-radius: 5px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.container input{
+    padding: 0.5rem;
+    width: 80%;
+}
+
+/* for adjusting the width of checkbox */
+
+.container input[type=checkbox]{
+    width: auto;
+}
+
+/* signup button at the end */
+
+.btn{
+    padding: 1rem;
+    background-color: #2ecc71 ;
+    font-size: 1rem;
+    width: 50%;
+    border-radius: 7px;
+    border: none;
+}
+
+/* end */
